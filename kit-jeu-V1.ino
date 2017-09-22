@@ -16,7 +16,7 @@ int affichageVert = affichageVertDepart; //selection de la led vert à afficher 
 int boutonRouge = 7;
 boolean etatBoutonRouge = 0;        //etat du bouton dans une variable
 boolean memoireEtatBoutonRouge = 0; //memoire de l'état du bouton pour que meme avec le doigt appuyé
-int affichageRougeDepart = 25;
+int affichageRougeDepart = 21;
 int affichageRougeFin = 11;
 int affichageRouge = affichageRougeDepart; //selection de la led rouge à afficher au depart
 
@@ -24,7 +24,7 @@ int affichageRouge = affichageRougeDepart; //selection de la led rouge à affich
 
 #include <Adafruit_NeoPixel.h>
 
-Adafruit_NeoPixel stripLedCourse = Adafruit_NeoPixel(26, 10, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel stripLedCourse = Adafruit_NeoPixel(22, 10, NEO_GRB + NEO_KHZ800);
 //declarations des couleurs led à afficher
 uint32_t vert = stripLedCourse.Color(0, 70, 0);//
 uint32_t rouge = stripLedCourse.Color(70, 0, 0);// 
