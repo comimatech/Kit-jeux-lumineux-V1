@@ -4,7 +4,7 @@ void loop() {
   //lecture de l'etat des boutons de chaques joueurs
   etatBoutonVert = digitalRead(boutonVert);
   etatBoutonRouge = digitalRead(boutonRouge);
-  autostop ();
+
 
   //Serial.println (etatBoutonVert); //pour le debug du bouton vert
 

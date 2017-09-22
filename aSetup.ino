@@ -14,7 +14,6 @@ void setup() {
 
   //initialisation de la partie strip led
   stripLedCourse.begin();  //demarrage des leds
-  stripLedautostop.begin();  //demarrage des leds
 
   for (  int i = 0; i < 26; i++) {  // assignation de la couleur "eteint" à chaque leds
     stripLedCourse.setPixelColor(i, eteint);
